@@ -1,8 +1,11 @@
 import type { NextConfig } from "next";
+import * as packageJson from "./package.json";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  reactCompiler: true,
 };
 
+const { version } = packageJson;
+
+export { version };
 export default nextConfig;
