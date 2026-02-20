@@ -119,7 +119,11 @@ async function seedSessions() {
       settingQuality FLOAT8 NOT NULL,
       gameFlow FLOAT8 NOT NULL,
       attackingQuality FLOAT8 NOT NULL,
-      overallPerformance FLOAT8
+      overallPerformance FLOAT8 NOT NULL,
+      winOfDay TEXT NOT NULL,
+      needsWork TEXT NOT NULL,
+      nextTimeFocus TEXT NOT NULL,
+      notes TEXT NOT NULL
     );
   `;
 
