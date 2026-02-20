@@ -8,9 +8,9 @@ import { Focus, Group, Session, Type, User } from "./definitions";
 const users: User[] = [
   {
     id: "bec2af6f-1650-4374-b54d-0680ad0591aa",
-    name: "Ced",
-    email: "clesueur.dev@gmail.com",
-    password: "123456",
+    username: "",
+    email: "",
+    password: "",
   },
 ];
 
