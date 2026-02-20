@@ -5,11 +5,11 @@ import { version } from "../../next.config";
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Volleyball Tracker v" + `${version}`,
-    default: "Volleyball Tracker v" + `${version}`,
+    template: "%s | VolleyTrack v" + `${version}`,
+    default: "VolleyTrack v" + `${version}`,
   },
   description:
-    "Volleyball Tracker is a web application designed to help volleyball players and coaches track their performance, analyze game statistics, and improve their skills. With an intuitive interface and powerful features, Volleyball Tracker makes it easy to monitor progress and achieve your goals on the court.",
+    "VolleyTrack is a web application designed to help volleyball players and coaches track their performance, analyze game statistics, and improve their skills. With an intuitive interface and powerful features, VolleyTrack makes it easy to monitor progress and achieve your goals on the court.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -15,7 +15,7 @@ export default function SideNav() {
           <div className={`${inter.className} antialiased text-white`}>
             <p>
               <span className="text-xl  md:text-4xl md:leading-normal">
-                <strong>Volleyball Tracker</strong>
+                <strong>VolleyTrack</strong>
               </span>
               <span className="text-m"> v{version}</span>
             </p>
